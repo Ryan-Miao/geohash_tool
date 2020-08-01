@@ -2,6 +2,8 @@
 
 geohash可视化工具, 在地图上显示geohash范围, 显示周围的九宫格.
 
+工具访问地址:  https://ryan-miao.github.io/geohash_tool/
+
 
 
 
