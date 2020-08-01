@@ -3,9 +3,9 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 module.exports = {
     // 选项...
     // 部署应用包时的基本 URL
-    publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/geohash_tool' : '/',
     // 输出文件目录。默认dist
-    outputDir: 'dist',
+    outputDir: 'docs',
     // 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录
     assetsDir: '',
     // 指定生成的 index.html 的输出路径 (相对于 outputDir)。也可以是一个绝对路径
